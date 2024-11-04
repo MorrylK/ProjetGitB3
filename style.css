@@ -1,0 +1,22 @@
+:root {
+    --principal-color: #5b9bd4;
+    --btn-color: #a7a7a7;
+}
+body {
+    width: 100vw;
+    height: 99vh;
+    margin: 0;
+}
+header {
+    background-color: var(--principal-color);
+    height: 13%;
+}
+#navbar {
+    background-color: var(--principal-color);
+    height: 80%;
+    width: 30%;
+}
+footer {
+    background-color: var(--principal-color);
+    height: 7%;
+}
