@@ -25,11 +25,13 @@ header {
     text-decoration: none;
     color: white;
     background-color: var(--btn-color);
+    min-width: 65%;
     width: 150px;
-    /*height: 40px;*/
-    padding: 15px;
+    font-size: 150%;
+    padding-top: 15%;
+    padding-bottom: 15%;
     margin: auto;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align: center;
     vertical-align: middle;
     box-shadow: 3px 3px black;
@@ -38,6 +40,8 @@ header {
     box-shadow: 3px 3px 2px 2px black;
 }
 footer {
+    display: flex;
+    flex-direction: column;
     background-color: var(--principal-color);
     height: 7%;
     border-top: 1px solid black;
