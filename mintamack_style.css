@@ -37,11 +37,23 @@
     color: white;
 }
 
-.return-button {
-    left: 20px;
-    background-color: #F44336; /* Rouge */
-    color: white;
-}
+
+    .menuBtn1 {
+        position: absolute;
+        bottom: 30px;
+        background-color: #d41f1f;
+        border: none;
+        padding: 10px 20px;
+        left: 40px;
+        text-decoration: none;
+        color: rgb(237, 224, 224);
+        min-width: 65%;
+        width: 150px;
+        font-size: 150%;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 3px 3px black;
+    }
 
 .menu-button:hover, .return-button:hover {
     background-color: darken(#4CAF50, 10%); /* Assombrir la couleur au survol */
