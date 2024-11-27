@@ -1,0 +1,116 @@
+.container{
+    max-width: 3000px;
+    margin-left: auto
+}
+
+.header{
+    display: block;
+    width: 100%;
+    background-color: var(--green-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 35px;
+}
+.logo{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 0.5rem;
+    font-size: 150%;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+.nav-container {
+    display: flex;
+}
+.nav-item{
+    margin-left: 90px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+.navbar a{
+    padding: 8px 17px;
+    color: #030405;;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.action_btn {
+    background-color: #00b600dc;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  
+  .navbar .action_btn:hover {
+    background-color: #e65c00;
+  }
+
+.buttons-container {
+    display: flex;
+    flex-direction: row; 
+    position: relative; 
+    top: 400px; 
+    justify-content: flex-end;
+}
+
+
+.buttons-container {
+    display: flex;
+    flex-direction: row; 
+    position: relative; 
+    top: 5px; 
+    justify-content: flex-end;
+    margin-bottom: 6px;
+    gap: 10px;
+}
+.login_button{
+    border-radius: 20px;
+    white-space: nowrap;
+    padding: 10px 20px;
+    color: white;
+    background:rgb(58, 231, 58);
+    font-weight: 600;
+    cursor: pointer;
+}
+.menuBtn1{
+    border-radius: 20px;
+    white-space: nowrap;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background:rgb(58, 231, 58);
+    font-weight: 100;
+    cursor: pointer;
+}
+.home{
+    
+
+    padding-top: -2rem; 
+    margin-bottom: 5rem;
+    background: url(field-with-orange-stones_1160-642.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2.5rem;
+    display: flex;
+    align-items: center;
+    width: 94%;
+    height: 590px;
+    margin-left: 41px;
+    opacity: black;
+}
